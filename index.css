@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
 }
 
 body, html {
@@ -74,6 +75,22 @@ nav {
 	rotate: 90deg;
 	text-align: end;
 	width: 400px;
+	position: relative;
+	animation: moveArrow 1s infinite;
+}
+
+@keyframes moveArrow {
+	0% {
+		bottom: 0;
+	}
+
+	50% {
+		bottom: 10px;
+	}
+
+	100% {
+		bottom: 0;
+	}
 }
 
 #info {
@@ -90,4 +107,62 @@ nav {
 /*Projects Section*/
 #projects {
 	background-color: #eaecdf;
+	padding: 50px 0;
+}
+
+#projects h2 {
+	color: #00a99d;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+#projects h5 {
+	color: #52cbbe;
+	font-weight: bold;
+}
+
+#projects .card {
+	border: 1.5px solid #00a99d;
+	margin: 10px 0;
+}
+
+/*Tools Section*/
+
+#tools {
+	background-color: #070d29;
+	padding: 50px 0;
+}
+
+#tools h2 {
+	color: #00a99d;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+/*Contact Section*/
+#contact {
+	background-color: #eaecdf;
+	padding-top: 50px;
+}
+
+#contact h2 {
+	color: #00a99d;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+#contact i {
+	color: #070d29;
+	margin: 0 15px;
+	font-size: 2rem;
+	border: 2px solid floralwhite;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+	background-color: floralwhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
 }
