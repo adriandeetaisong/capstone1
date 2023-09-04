@@ -1,0 +1,93 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+	overflow-x: hidden;
+}
+
+main {
+	background-image: url("./images/background-img-2.png");
+	height: 100vh;
+	background-color: #070d29;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 100vh;
+}
+
+
+#background-1 {
+	display: inline-block;
+	top: -35.5px;
+	z-index: 0;
+	height: 100vh;
+}
+
+nav {
+	border: 2px solid #12e1b9;
+	position: sticky;
+	z-index: 4;
+}
+
+.navbar-toggler-icon {
+	fill: red;
+}
+
+#navbarNav a{
+	color: #12e1b9;
+	font-size: 13px;
+	margin: 0 30px;
+}
+
+#info, #profile {
+	top: -35.5px;
+}
+
+#landing h1 {
+	font-size: 5rem;
+	font-weight: bold;
+	line-height: 70px;
+	letter-spacing: 17px;
+}
+
+#landing h3 {
+	font-size: 3.1rem;
+	font-weight: bold;
+	line-height: 50px;
+	letter-spacing: 9px;
+}
+
+#landing h4 {
+	color: #12e1b9;
+	font-size: 1.34rem;
+	letter-spacing: 3.9px;
+}
+
+#landing p {
+	color: lightslategray;
+	font-weight: 10;
+	font-size: 30px;
+	rotate: 90deg;
+	text-align: end;
+	width: 400px;
+}
+
+#info {
+	padding: 0 0 0 100px;
+	z-index: 4;
+}
+
+#profile img {
+	height: 99.2vh;
+	z-index: 3;
+	padding-left: 100px;
+}
+
+/*Projects Section*/
+#projects {
+	background-color: #eaecdf;
+}
