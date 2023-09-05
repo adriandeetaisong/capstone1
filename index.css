@@ -11,9 +11,9 @@ body, html {
 	overflow-x: hidden;
 }
 
-main {
+#landing {
 	background-image: url("./images/background-img-2.png");
-	height: 100vh;
+	height: calc(100vh - 40px);
 	background-color: #070d29;
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -29,9 +29,9 @@ main {
 }
 
 nav {
-	border: 2px solid #12e1b9;
-	position: sticky;
-	z-index: 4;
+	border: 2px solid #070d29;
+	background-color: #070d29;
+	position: absolute;
 }
 
 .navbar-toggler-icon {
