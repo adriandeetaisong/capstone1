@@ -107,13 +107,19 @@ nav {
 }
 
 #projects h5 {
-	color: #52cbbe;
+	color: #52CBBE;
 	font-weight: bold;
+	letter-spacing: 2.664px;
+}
+
+#projects p {
+	color: #000
 }
 
 #projects .card {
-	border: 1.5px solid #00a99d;
+	border: 3px solid #52CBBE;
 	margin: 10px 0;
+	box-shadow: 2px 4px 17px 0px rgba(82, 203, 190, 0.58);
 }
 
 #projects a:hover {
@@ -124,7 +130,7 @@ nav {
 
 #tools {
 	background-color: #070d29;
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 #tools h2 {
